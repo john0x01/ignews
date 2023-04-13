@@ -1,3 +1,4 @@
+import { SubscribeButton } from "@/components/SubscribeButton"
 import Head from "next/head"
 
 export default function Home() {
@@ -17,6 +18,9 @@ export default function Home() {
 						Get access to all the publications<br />
 						<span className="text-cyan-500 font-bold">for $9.90/month</span>
 					</p>
+					<div className="mt-10">
+						<SubscribeButton />
+					</div>
 				</section>
 
 				<img src="/images/avatar.svg" alt="" />
