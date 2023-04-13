@@ -1,3 +1,5 @@
+import { SigninButton } from "./SigninButton";
+
 export function Header() {
     return (
         <header className="h-20 border border-gray-800">
@@ -17,6 +19,10 @@ export function Header() {
                         Posts
                     </a>
                 </nav>
+
+                <div className="ml-auto">
+                    <SigninButton/>
+                </div>
             </div>
         </header>
     )
